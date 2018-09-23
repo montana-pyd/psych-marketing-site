@@ -1,0 +1,23 @@
+{
+  "name": "psych-marketing-site",
+  "version": "1.0.0",
+  "description": "ya",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samheutmaker/psych-marketing-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samheutmaker/psych-marketing-site/issues"
+  },
+  "homepage": "https://github.com/samheutmaker/psych-marketing-site#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
