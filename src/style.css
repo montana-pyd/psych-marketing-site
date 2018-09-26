@@ -231,7 +231,7 @@ input:-webkit-autofill:focus {
 }
 
 .page-title h2:after {
-    content: "\e675";
+    /* content: "\e675"; */
     font-family: 'themify';
     position: absolute;
     left: 50%;
