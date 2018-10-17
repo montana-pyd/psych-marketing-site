@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="js/mailchimp.js"></script>
 
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -82,13 +83,12 @@
                     <p>The Montana positive youth development program is composed of a talented team of undergraduate research assistants
                     all with an interest in positive psychology, community engagement, and adolescent development</p>
 
-                    <form action="http://eepurl.com/dJT-Es" method="GET" class="contact-form">
+                    <div class="contact-form" id="mailchimp-form">
                         <div class="form-double">
-                            <input type="email" id="form-subject" name="email" class="form-control" placeholder="Subscribe to our newsletter" />
-                            <!-- <input type="hidden" name="u" value="1cd36fe0a1e8acaddbe6f199d&id=c4dfe69fda" /> -->
-                            <button type="submit" class="button" style="margin-top: 1px; margin-left: 5px;">Sign Up</button>
+                            <input type="email" id="form-email" name="email" class="form-control" placeholder="Subscribe to our newsletter" />
+                            <button class="button" onClick="signUpMailChimp();" style="margin-top: 1px; margin-left: 5px;">Sign Up</button>
                         </div>
-                    </form>
+                    </div>
                 </div>
               
             </div>
