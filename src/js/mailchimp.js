@@ -1,7 +1,7 @@
 function signUpMailChimp(){
   let email = document.getElementById("form-email").value;
   
-  if(email.indexOf('@') == -1 || !email.indexOf('.') == -1) {
+  if(email.indexOf('@') == -1 || email.indexOf('.') == -1) {
     $('#signup-error').show();
     $("#signup-text").hide();
     setTimeout(() => {
