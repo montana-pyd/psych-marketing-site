@@ -28,6 +28,7 @@ function subscribeToMailChimp(email) {
 
 app.post('/mailchimp-signup', json, (req, res) => {
   let { email } = req.body;
+  console.log(email);
   subscribeToMailChimp(email);
   res.status(200).json({
     success: true

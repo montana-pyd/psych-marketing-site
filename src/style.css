@@ -91,6 +91,26 @@ input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
 }
 
+
+/* Sign UP */
+#signup-text {
+    display: block;
+}
+
+#signup-loader {
+    display: none;
+}
+
+#signup-success {
+    display: none;
+    color: #75C05B;
+}
+
+#signup-error {
+    display: none;
+    color: red;
+}
+
 /**
 *Helper-Classes
 **/

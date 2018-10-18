@@ -84,12 +84,18 @@
                     all with an interest in positive psychology, community engagement, and adolescent development</p>
 
                     <div class="contact-form" id="mailchimp-form">
-                        <div class="form-double">
+                       <div class="form-double">
                             <input type="email" id="form-email" name="email" class="form-control" placeholder="Subscribe to our newsletter" />
-                            <button class="button" onClick="signUpMailChimp();" style="margin-top: 1px; margin-left: 5px;">Sign Up</button>
-                        </div>
+                        <button class="button" onClick="signUpMailChimp();" style="margin-top: 1px; margin-left: 5px;">
+                            <span id="signup-text">Sign Up</span>
+                            <span id="signup-loader">Loading...</span>
+                            <span id="signup-success">Success!</span>
+                            <span id="signup-error">Invalid Email</span>
+                        </button>
+                        </div> 
                     </div>
                 </div>
+                
               
             </div>
         </div>
