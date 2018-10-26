@@ -392,7 +392,7 @@ input:-webkit-autofill:focus {
 }
 
 .anlge-bg {
-    background: url('images/hero1.jpg') no-repeat scroll center top 0 / 100% auto;
+    background: url('images/hero1.jpg') no-repeat scroll center bottom 0 / 100% auto;
 }
 
 .overlay {
